@@ -46,9 +46,12 @@ The OSI Model consists of **7 layers**, each serving a specific function in netw
 
 ---
 
-# 🔥 Protocols and Ports for DevOps
 
-## 📌 Common Network Protocols & Their Port Numbers
+
+
+
+
+# 🔥 Protocols and Ports for DevOps
 
 | **Protocol** | **Port Number** | **Purpose in DevOps** |
 |-------------|--------------|--------------------|
@@ -60,7 +63,7 @@ The OSI Model consists of **7 layers**, each serving a specific function in netw
 
 ---
 
-## Task 2  --> 🔥 How These Protocols Help in DevOps
+## TASK 2  --> 🔥 How These Protocols Help in DevOps
 
 1. **HTTP/HTTPS**
    - Used in **REST API calls** for cloud services (AWS, Azure, Kubernetes).
@@ -78,15 +81,9 @@ The OSI Model consists of **7 layers**, each serving a specific function in netw
    - Resolves domain names for distributed services.
    - Used in **Kubernetes service discovery (CoreDNS)**.
 
----
 
-## 🚀 Why These Protocols Matter in DevOps
-These protocols enable **secure, automated, and scalable** workflows, allowing teams to efficiently build, deploy, and monitor applications.
 
-🔗 **Learn More**: [RFC Documentation](https://www.rfc-editor.org/)  
-📌 **Follow Best Practices**: Always ensure **secure implementations** (e.g., SSH keys, TLS certificates).  
 
----
 
 # TASK 3 -->  🔒 How to Create and Configure Security Groups in AWS EC2
 
@@ -151,17 +148,22 @@ Outbound rules define what traffic your instance **can send**.
 
 ---
 
-## 🎯 Conclusion
-Security Groups play a **crucial role** in protecting AWS infrastructure by controlling network access.
+                                                                                                                                                                                                                                    
+# TASK 4 --> 🚀 Essential Networking Commands for DevOps Engineers  
 
-🚀 **Next Steps**: Implement **IAM roles, VPC security, and AWS WAF** for enhanced security.
+---
 
-🔗 **Learn More**: [AWS Security Groups Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
+## 📌 Networking Commands and Their Use Cases  
 
+| Command   | Description  | Scenario When these command are Used by DevOps Engineers |
+|-----------|-------------|-----------------------------------------|
+| **ping**  | The `ping` command checks the connectivity between two network devices by sending ICMP Echo Request packets and waiting for ICMP Echo Reply responses.  | ✔️ **Checking Server Availability**: Before deploying or troubleshooting, ensure a server is online and reachable. <br> ✔️ **Diagnosing Network Issues**: If an application is slow or unreachable, use `ping` to check latency & packet loss. <br> ✔️ **Domain Resolution Check**: If a website isn't loading, check if the domain resolves to an IP. <br> ✔️ **Automated Health Checks**: Automate health checks in CI/CD scripts to verify server reachability before deployments. |
+| **traceroute / tracert**  | The `traceroute` (Linux/macOS) or `tracert` (Windows) command maps the path that packets take from your machine to a destination by showing all the routers (hops) in between.  | ✔️ **Network Latency Analysis**: If an application is slow, use `traceroute` to find where the delay occurs. <br> ✔️ **Debugging Routing Issues**: If a website or service is unreachable, check if packets are being blocked or misrouted. <br> ✔️ **Packet Drop Analysis**: If `* * *` appears in the output, that hop is dropping packets (firewall or dead route). |
+| **netstat**  | The `netstat` (Network Statistics) command monitors network connections, displaying active ports, routing tables, and network statistics. It helps identify open ports, running services, and network-related issues.  | ✔️ **Check Active Network Connections**: List all active TCP and UDP connections. <br> ✔️ **Port Monitoring**: Check which ports your system is listening on. <br> ✔️ **Service Availability**: Verify if a specific service is running on port 80. <br> ✔️ **Find Process Using a Port (Linux)**: Identify which process (PID) is using a specific port. |
+| **dig / nslookup**  | The `dig` (Domain Information Groper) and `nslookup` commands query DNS (Domain Name System) records, helping resolve domain names to IP addresses and retrieve detailed DNS information.  | ✔️ **Find IP Address of a Domain**: Helps verify if a domain is resolving correctly. <br> ✔️ **Check Specific DNS Records**: Fetch `A`, `MX`, `CNAME`, or `NS` records. <br> ✔️ **Troubleshoot DNS Issues**: Verify domain configurations and propagation. |
+| **curl**  | The `curl` (Client URL) command is used to transfer data between a client and a server using various protocols like HTTP, HTTPS, FTP, SCP, and SFTP. It is commonly used for testing API endpoints, downloading files, and troubleshooting network connections.  | ✔️ **Testing API Endpoints**: Make HTTP requests to verify API responses. <br> ✔️ **Downloading Files**: Retrieve files from a URL using `curl`. <br> ✔️ **Checking Response Headers**: Inspect headers for debugging and security analysis. |
 
-
-
-
+---
 
 
 
