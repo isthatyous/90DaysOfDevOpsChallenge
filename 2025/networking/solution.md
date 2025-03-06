@@ -16,7 +16,7 @@ The OSI Model consists of **7 layers**, each serving a specific function in netw
 
 ---
 
-## 🚀 TASK 1  --> Real-World Examples of Protocols Used in Each Layer
+## 🚀 TASK 1  --> Real-World Examples of Protocols Used in Each Layer 
 
 ### **Application Layer**
 - **HTTP** → Used when browsing the internet (e.g., `https://swe.shivamcodes.me`).
