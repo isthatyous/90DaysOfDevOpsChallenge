@@ -1,0 +1,29 @@
+# Task 1
+sudo useradd -m devops_user
+cat /etc/passwd
+sudo passwd devops_user
+sudo groupadd devops_team
+cat /etc/group
+sudo gpasswd -a devops_user devops_team
+cat /etc/group
+ # give sudo user previlage
+sudo usermod -a -G sudo devops_user
+su - devops_user
+sudo whoami  --> this will print the root
+# how to remove user from sudo group or remove its root priveleges
+sudo deluser devops_user sudo
+
+
+
+
+# Task 2
+mkdir devops_workspace
+cd devops_workspace
+touch project_notes.txt
+ls -l
+chmod 240 project_notes.txt
+ls -l
+
+
+#Task 3
+
