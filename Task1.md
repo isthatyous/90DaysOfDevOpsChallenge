@@ -1,1 +1,1 @@
-This is the task1 solution file of Linux week 2
+This is solution of week-2 Linux in the Linux branch
