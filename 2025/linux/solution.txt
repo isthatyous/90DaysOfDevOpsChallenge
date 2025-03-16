@@ -1,4 +1,4 @@
-# Task 1
+# Task 1 solution  
 sudo useradd -m devops_user
 cat /etc/passwd
 sudo passwd devops_user
