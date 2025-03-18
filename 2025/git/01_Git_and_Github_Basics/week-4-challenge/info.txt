@@ -1,1 +1,6 @@
 Hey, I’m Shivam Singh! A full-stack developer with expertise in React, Node.js, TypeScript, Prisma, FastAPI, and Next.js. I’ve built real estate platforms, SaaS projects, and AR/VR visualization tools, leveraging monorepo architectures, WebSockets, and secure authentication systems. I’m also passionate about competitive programming, having ranked in ACM-ICPC and  Google HashCode. Currently in my 3rd year at JUET, I’ve mentored hackathon teams and love working on innovative tech solutions!.🚀
+
+Currently in my 3rd year at JUET, I’m constantly exploring new technologies, system design, and software architecture to build innovative tech solutions that make an impact! 🚀
+
+Additionally, I have cracked the NDA (National Defence Academy) exam, showcasing my problem-solving skills, discipline, and determination in one of India's toughest competitive exams.
+
